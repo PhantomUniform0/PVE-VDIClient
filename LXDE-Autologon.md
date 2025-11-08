@@ -14,6 +14,7 @@ nano autostart
 ```
 nano ~/thinclient
 ```
+
 ## Contents for thinclient
 ```
 cd ~/PVE-VDIClient
