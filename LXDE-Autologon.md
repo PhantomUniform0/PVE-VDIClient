@@ -10,7 +10,7 @@ nano autostart
 ```
 ### Content for autostart
 ```
-@/usr/bin/bash /home/**<user>**/thinclient
+@/usr/bin/bash /home/YOUR INSTALL USER/thinclient
 ```
 ## Thinclient Options
 ```
