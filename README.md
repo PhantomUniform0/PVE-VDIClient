@@ -75,13 +75,13 @@ you will need to download the latest 3.12 python release, and run the following 
 
 Run the following commands on a Debian/Ubuntu Linux system to install the appropriate prerequisites
 
- `sudo apt install python3-pip python3-tk virt-viewer git
+   ``sudo apt install python3-pip python3-tk virt-viewer git
    sudo git clone https://github.com/PhantomUniform0/PVE-VDIClient
    cd ./PVE-VDIClient/
    sudo chmod +x requirements.sh
    ./requirements.sh
    sudo cp vdiclient.py /usr/local/bin
-   sudo chmod +x /usr/local/bin/vdiclient.py`
+   sudo chmod +x /usr/local/bin/vdiclient.py``
 
 ## Fedora/CentOS/RHEL Installation
 
