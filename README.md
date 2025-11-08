@@ -16,7 +16,7 @@ Users that are accessing VDI instances need to have the following permissions as
 * VM.PowerMgmt
 * VM.Console
 * VM.Audit
-*A good practice is to give the minimum permissions required to compelete the job*
+* *A good practice is to give the minimum permissions required to compelete the job*
 
 ## Command Line Usage
 
