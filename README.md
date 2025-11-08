@@ -53,7 +53,7 @@ cd ./PVE-VDIClient/
 sudo chmod +x requirements.sh
 ./requirements.sh
 sudo cp vdiclient.py /usr/local/bin
-sudo chmod +x ~/PVE-VDIClient/PVE-VDIClient/vdiclient.py
+sudo chmod +x ~/PVE-VDIClient/vdiclient.py
 ```
 Once you are done installing the prereqs 
 ```
