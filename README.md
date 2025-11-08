@@ -87,6 +87,8 @@ If you encounter any issues feel free to submit an issue report.
 For setting thinclient like workstations see [the LXDE Autologon Guide](https://github.com/PhantomUniform0/PVE-VDIClient/blob/main/LXDE-Autologon.md)
 
 # Not updated install guides
+### The following guides have NOT been updated since the fork nor have they been tested
+
 ## Fedora/CentOS/RHEL Installation
 
 Run the following commands on a Fedora/CentOS/RHEL Linux system to install the appropriate prerequisites
