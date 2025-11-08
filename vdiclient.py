@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import proxmoxer # pip install proxmoxer
-import FreeSimpleGUI as sg # pip install PySimpleGUI
+import FreeSimpleGUI as sg # pip install FreeSimpleGUI
 gui = 'TK'
 import requests
 from datetime import datetime
