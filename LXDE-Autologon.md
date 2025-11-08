@@ -1,5 +1,6 @@
 # Steps for getting LXDE to autologon
 
+# Creating the autostart file
 ```
 cd ~/.config/lxsession/LXDE
 #Backup file if it exists (this may error if it doesn't exist, that's fine)
@@ -7,7 +8,7 @@ mv autostart autostart.bak
 #Create new file
 nano autostart
 ```
-## Content for autostart
+### Content for autostart
 ```
 @/usr/bin/bash /home/**<user>**/thinclient
 ```
@@ -30,11 +31,12 @@ done
 ```
 sudo nano /etc/lightdm/lightdm.conf
 ```
+```
 Find #autologin-user=
 Uncomment and change that to the user you created for VDI
 Find #autologin-user-timeout=0
 Uncomment
-
+```
 Reboot
 
 # For the oh $*!T moments
