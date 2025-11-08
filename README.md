@@ -1,4 +1,5 @@
 # PVE VDI Client
+# This is a fork of the orignal project with some moderate changes
 
 This project's focus is to create a simple VDI client intended for mass deployment. This VDI client connects directly to Proxmox VE and allows users to connect (via Spice) to any VMs they have permission to access.
 
@@ -75,7 +76,7 @@ you will need to download the latest 3.12 python release, and run the following 
 Run the following commands on a Debian/Ubuntu Linux system to install the appropriate prerequisites
 
     apt install python3-pip python3-tk virt-viewer git
-    git clone https://github.com/joshpatten/PVE-VDIClient.git
+    git clone https://github.com/PhantomUniform0/PVE-VDIClient
     cd ./PVE-VDIClient/
     chmod +x requirements.sh
     ./requirements.sh
@@ -87,7 +88,7 @@ Run the following commands on a Debian/Ubuntu Linux system to install the approp
 Run the following commands on a Fedora/CentOS/RHEL Linux system to install the appropriate prerequisites
 
     dnf install python3-pip python3-tkinter virt-viewer git
-    git clone https://github.com/joshpatten/PVE-VDIClient.git
+    git clone https://github.com/PhantomUniform0/PVE-VDIClient
     cd ./PVE-VDIClient/
     chmod +x requirements.sh
     ./requirements.sh
@@ -99,7 +100,7 @@ Run the following commands on a Fedora/CentOS/RHEL Linux system to install the a
 Run the following commands if you wish to build a binary on a Debian/Ubuntu Linux system
 
     apt install python3-pip python3-tk virt-viewer git
-    git clone https://github.com/joshpatten/PVE-VDIClient.git
+    git clone https://github.com/PhantomUniform0/PVE-VDIClient
     cd ./PVE-VDIClient/
     chmod +x requirements.sh
     ./requirements.sh
