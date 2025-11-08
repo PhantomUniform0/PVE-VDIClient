@@ -84,6 +84,14 @@ Please refer to [vdiclient.ini.example](https://github.com/PhantomUniform0/PVE-V
 
 If you encounter any issues feel free to submit an issue report.
 
+## Simple Script Install
+```
+# If you want to use a simple installer script to do all the above just download linux-install.sh
+# Run as
+sudo chmod +x linux-install.sh
+./linux-install.sh
+```
+
 For setting thinclient like workstations see [the LXDE Autologon Guide](https://github.com/PhantomUniform0/PVE-VDIClient/blob/main/LXDE-Autologon.md)
 
 # Not updated install guides
