@@ -7,25 +7,7 @@ Defining multiple Proxmox clusters is possible and can allow end users to easily
 
 ![Login Screen](screenshots/login.png)
 
-![Login Screen with OTP](screenshots/login-totp.png)
-
 ![VDI View](screenshots/vdiview.png)
-
-## Configuration File
-
-PVE VDI Client **REQUIRES** a configuration file to function. The client searches for this file in the following locations unless overridden with [command line options](#command-line-usage):
-
-* Windows
-    * %APPDATA%\VDIClient\vdiclient.ini
-    * %PROGRAMFILES%\VDIClient\vdiclient.ini
-* Linux
-    * ~/.config/VDIClient/vdiclient.ini
-    * /etc/vdiclient/vdiclient.ini
-    * /usr/local/etc/vdiclient/vdiclient.ini
-
-Please refer to [vdiclient.ini.example](https://github.com/PhantomUniform0/PVE-VDIClient/blob/main/vdiclient.ini.example) for all available config file options
-
-If you encounter any issues feel free to submit an issue report.
 
 ## Proxmox Permission Requirements
 
@@ -34,6 +16,7 @@ Users that are accessing VDI instances need to have the following permissions as
 * VM.PowerMgmt
 * VM.Console
 * VM.Audit
+*A good practice is to give the minimum permissions required to compelete the job*
 
 ## Command Line Usage
 
@@ -70,8 +53,29 @@ cd ./PVE-VDIClient/
 sudo chmod +x requirements.sh
 ./requirements.sh
 sudo cp vdiclient.py /usr/local/bin
-sudo chmod +x /usr/local/bin/vdiclient.py
+sudo chmod +x ~/PVE-VDIClient/PVE-VDIClient/vdiclient.py
 ```
+Once you are done installing the prereqs 
+```
+./vdiclient.py
+```
+A no config error message should appear at this point.
+## Configuration File
+
+PVE VDI Client **REQUIRES** a configuration file to function. The client searches for this file in the following locations unless overridden with [command line options](#command-line-usage):
+
+* Windows
+    * %APPDATA%\VDIClient\vdiclient.ini
+    * %PROGRAMFILES%\VDIClient\vdiclient.ini
+* Linux
+    * ~/.config/VDIClient/vdiclient.ini
+    * /etc/vdiclient/vdiclient.ini
+    * /usr/local/etc/vdiclient/vdiclient.ini
+
+Please refer to [vdiclient.ini.example](https://github.com/PhantomUniform0/PVE-VDIClient/blob/main/vdiclient.ini.example) for all available config file options
+
+If you encounter any issues feel free to submit an issue report.
+
 # Not updated install guides
 ## Fedora/CentOS/RHEL Installation
 
