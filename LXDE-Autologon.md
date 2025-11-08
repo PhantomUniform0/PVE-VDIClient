@@ -11,12 +11,13 @@ nano autostart
 ```
 @/usr/bin/bash /home/**<user>**/thinclient
 ```
-
+## Thinclient Options
 ```
 nano ~/thinclient
 ```
-## Contents for thinclient
+### Contents for thinclient
 ```
+# Yes the CD is supposed to be here to allow the stupid thing to load
 cd ~/PVE-VDIClient
 while true
 do
