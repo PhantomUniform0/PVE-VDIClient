@@ -11,10 +11,10 @@ nano autostart
 ```
 @/usr/bin/bash /home/**<user>**/thinclient
 ```
+
 ```
 nano ~/thinclient
 ```
-
 ## Contents for thinclient
 ```
 cd ~/PVE-VDIClient
