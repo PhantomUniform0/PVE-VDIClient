@@ -84,6 +84,8 @@ Please refer to [vdiclient.ini.example](https://github.com/PhantomUniform0/PVE-V
 
 If you encounter any issues feel free to submit an issue report.
 
+For setting thinclient like workstations see [the LXDE Autologon Guide](https://github.com/PhantomUniform0/PVE-VDIClient/blob/main/LXDE-Autologon.md)
+
 # Not updated install guides
 ## Fedora/CentOS/RHEL Installation
 
