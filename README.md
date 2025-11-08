@@ -72,7 +72,10 @@ you will need to download the latest 3.12 python release, and run the following 
     requirements.bat
 
 ## Linux Installation
-
+-# NOTE: You must run this command after installing pip else they will fail due to pip being a external package manager
+```
+dpkg-divert --rename --add /usr/lib/$(py3versions -d)/EXTERNALLY-MANAGED
+```
 Run the following commands on a Debian/Ubuntu Linux system to install the appropriate prerequisites
 ```
 sudo apt install python3-pip python3-tk virt-viewer git
