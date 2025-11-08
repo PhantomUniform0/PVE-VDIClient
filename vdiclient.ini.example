@@ -1,24 +1,44 @@
 [General]
+
 # This is the title that is diplayed to the user
+
 title = VDI Login
+
 # This is the PySimpleGui Theme that is used. Run vdiclient.py with flag `--list_themes` for a list of themes
+
 theme = LightBlue
+
 # Program Icon
+
 icon = vdiicon.ico
+
 # Logo displayed on all windows
+
 logo = vdiclient.png
+
 # Enable Kiosk mode, which does not allow the user to close anything
+
 kiosk = False
+
 # Enable/Disable Fullscreen mode (not applicable in Kiosk mode)
+
 fullscreen = True
+
 # Disable viewer_kiosk mode if kiosk is set to true, this allows overriding remote_viewer kiosk mode
+
 #viewer_kiosk = False
+
 # Enable displaying SPICE ini file before opening virt-viewer
+
 inidebug = False
+
 # Select which guest types to display. Acceptable values: both, lxc, qemu
+
 guest_type = both
+
 # Show VM option for resetting VM
 #show_reset = True
+
 # Set Window Dimensions. Only use if window isn't sizing properly
 #window_width = 800
 #window_height = 600
@@ -36,24 +56,33 @@ hostpool = {
            }
 # This is the authentication backend that will be used to authenticate
 auth_backend = pve
+
 # If enabled, 2FA TOTP entry dialog will show
 auth_totp = false
+
 # If disabled, TLS certificate will not be checked
 tls_verify = false
+
 # User name (if using token)
 # NOTE: If only one cluster is defined, this will auto-login
 # If user, token_name, and token_value are set
 #user = user
+
 # API Token Name
 #token_name = dvi
+
 # API Token Value
 #token_value = xxx-x-x-x-xxx
+
 # Password Reset Command Launch. Has to be full executable Command
 #pwresetcmd = start chrome --app=http://pwreset.example.com
+
 # Automatically connect to a VMID upon authentication
 #auto_vmid = 100
 
+
 # An additional cluster definition
+
 #[Hosts.PVE2]
 # JSON dictionary of servers in the cluster
 # Format is 'IP/FQDN': PORT
@@ -82,11 +111,12 @@ tls_verify = false
 
 
 [SpiceProxyRedirect]
+# THIS IS A MANDATORY CONFIG OPTION THAT MUST BE CONFIGUTRED
 # The Spice Proxy provided by the Proxmox API may need to have its host/port rewritten
 # These rewrite rules are written `IP:port = IP:port`
 # 1. Use the inidebug and read the current proxy=pve1.example.com:3128
-# 2. Add your proxmox ip to the right side e.g. 123.123.123.123:6000
-pve1.example.com:3128 = 123.123.123.123:6000
+# 2. Add your proxmox ip to the right side e.g. 69.69.69.69
+pve1.example.com:3128 = 69.69.69.69
 
 #[AdditionalParameters]
 # If you wish to define additional parameters to pass to virt-viewer you may define them here
