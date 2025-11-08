@@ -64,15 +64,18 @@ A no config error message should appear at this point.
 
 PVE VDI Client **REQUIRES** a configuration file to function. The client searches for this file in the following locations unless overridden with [command line options](#command-line-usage):
 
-* Windows
-    * %APPDATA%\VDIClient\vdiclient.ini
-    * %PROGRAMFILES%\VDIClient\vdiclient.ini
 * Linux
     * ~/.config/VDIClient/vdiclient.ini
     * /etc/vdiclient/vdiclient.ini
     * /usr/local/etc/vdiclient/vdiclient.ini
+* Windows
+    * %APPDATA%\VDIClient\vdiclient.ini
+    * %PROGRAMFILES%\VDIClient\vdiclient.ini
 
 Please refer to [vdiclient.ini.example](https://github.com/PhantomUniform0/PVE-VDIClient/blob/main/vdiclient.ini.example) for all available config file options
+
+**EXTREMELY IMPORANT**
+You **MUST** configure **[SpiceProxyRedirect]** or connections **WILL** fail.
 
 If you encounter any issues feel free to submit an issue report.
 
